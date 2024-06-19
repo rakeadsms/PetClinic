@@ -39,7 +39,6 @@
         <dandelion.version>1.1.1</dandelion.version>
         <dandelion.datatables.version>1.1.0</dandelion.datatables.version>
 
-        <cobertura.version>2.7</cobertura.version>
 
     </properties>
 
@@ -374,8 +373,6 @@
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
-                <artifactId>cobertura-maven-plugin</artifactId>
-                <version>${cobertura.version}</version>
                 <configuration>
                     <check/>
                 </configuration>
@@ -396,8 +393,6 @@
             <!--  integrate maven-cobertura-plugin to project site  -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
-                <artifactId>cobertura-maven-plugin</artifactId>
-                <version>${cobertura.version}</version>
                 <configuration>
                     <formats>
                         <format>html</format>
